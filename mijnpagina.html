@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tandartsafspraak</title>
+</head>
+<body>
+<h3>Tandartsafspraak</h3>    
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel faucibus mi. Pellentesque fermentum consectetur nisi, ut commodo nisi congue non. Integer vel tincidunt elit. Donec porta nibh vitae magna ultricies, pretium eleifend lacus mattis. Praesent non dolor quis tortor varius bibendum. Suspendisse vel lacus quis diam dapibus vestibulum fermentum eget ex. Aliquam erat volutpat. Suspendisse potenti. Morbi ultrices magna sed imperdiet mollis. Quisque vel purus ullamcorper, tempus dolor vitae, pharetra dui.
+</p>
+<img src="https://cdn.pixabay.com/photo/2016/09/14/20/50/tooth-1670434_1280.png" alt="Afbeelding van blije tand" width="300">
+<img src="https://cdn.pixabay.com/photo/2017/03/22/20/01/man-2166254_1280.png" alt="Afbeelding van man aan het tandenpoetsen" width="300">
+<img src="https://cdn.pixabay.com/photo/2018/03/01/16/43/toothbrush-3191097_1280.jpg" alt="Afbeelding van tandenborstels en tandpasta" width="300">
+<p><form id="Tandartspraktijk KiesKeurig" action="https://formspree.io/f/mpzeggog" method="post">
+    <fieldset>
+    <legend>Persoonlijke gegevens</legend><br>
+    <label for="naam">Naam:</label>
+    <input id="naam" type="text" name="naam"><br><br>
+    <input type="radio" name="geslacht" value="man" checked>Man
+    <input type="radio" name="geslacht" value="vrouw">Vrouw
+    <input type="radio" name="geslacht" value="anders">Anders <br><br>
+    <label for="geboortedatum">Geboortedatum:</label>
+    <input id=¨geboortedatum¨ type="date" name="datum" max="2080-12-31"><br><br>
+    <label for="adres">Adres:</label>
+    <input type="text" id="adres" name="adres"><br><br>
+    <label for="postcode">Postcode:</label>
+    <input type="text" id="postcode" name="postcode"><br><br>
+    <label for="telefoonnummer">Telefoonnummer:</label>
+    <input type="tel" id="telefoonnummer" name="telefoonnummer"><br><br>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email"><br><br>
+    </fieldset>
+    <fieldset>
+    <legend>Beschrijving van de klachten</legend><br>
+    <b>Welke klachten ervaart u?</b><br>
+    <input type="checkbox" name="klachten"
+    value="Kiespijn">Kiespijn
+    <input type="checkbox" name="klachten"
+    value="Zenuwpijn">Zenuwpijn
+    <input type="checkbox" name="klachten"
+    value="Kaakpijn">Kaakpijn
+    <input type="checkbox" name="klachten"
+    value="Tandvleesontsteking">Tandvleesontsteking <br><br>
+    <label for="aandoening">Foto van de aandoening</label>
+    <input type="file" id="aandoening" name="aandoening"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Toelichting van de klachten</legend><br>
+        <b>Geef een omschrijving van de klachten (in maximaal 1500 woorden):</b></td><br>
+<textarea name ="bericht" maxlength ="1500"></textarea><br><br>
+        <b>Voor welke datum wilt u een afspraak maken?</b><br>
+        <input type="date" name="datum" max="2080-12-31"><br><br>
+        </fieldset><br>
+    <input type="submit" value="Verzend">
+    </form></p>
+</body>
+</html>
